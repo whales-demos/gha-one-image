@@ -8,13 +8,10 @@ jobs:
       image: philippecharriere494/my-ubuntu-go-nodejs-env:0.0.1
     steps:
       - run: go version
-      - run: lsb_release -a
    B-With-Go-And-NodeJS:
     runs-on: ubuntu-latest
     container:
       image: philippecharriere494/my-ubuntu-go-nodejs-env:0.0.1
     steps:
-      - run: lsb_release -a
       - run: node --version
-# If I use it for every job, it will be huge
 
